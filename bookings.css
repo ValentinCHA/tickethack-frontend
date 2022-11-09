@@ -1,4 +1,5 @@
-*{margin:0;
+*{
+margin:0;
 padding: 0;
 box-sizing: border-box;
 }
@@ -42,41 +43,58 @@ li {
     font-family: 'Lucida Sans Regular',sans-serif;
     margin: 10px;
 }
-#cart{
+
+.cartContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    
+}
+
+
+#Mycart{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    
+    /*margin: 100px; J'AI MIS CA DANS UNE DIV cartContainer juste au dessus POUR BIEN L'ALIGNER
+    margin-top: 300px;*/
+
+    border-radius: 10px;
+    background-color: white;
+    height: 250px;
+    width: 60vw; 
+    font-family: 'Lucida Sans Regular',sans-serif;
+    border: solid, red, 20px;
+}
+
+
+h1{
+    color: black;
+    margin: 20px;
+    font-size: 16px;
+}
+#array1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    background: rgb(226, 224, 224) ;
+    font-family: 'Lucida Sans Regular',sans-serif;
+    margin-top: 15px;
+    width: 85%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+#bottom{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin: 100px;
-    margin-top: 300px;
-    background-color: white;
-    height: 250px;
-    width: 40%; 
-    font-family: 'Lucida Sans Regular',sans-serif;
-}
-#arraw1{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-family: 'Lucida Sans Regular',sans-serif;
-}
-#arraw2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 30px;
-    background-color:rgb(7, 7, 65);
-    height: 10px;
-    width: 100%;
-    font-family: 'Lucida Sans Regular',sans-serif;
-    margin: 100px;
-}
-#btn-purchase{
-    background-color: green;
-    color: white;
-    border: none;
-    font-size: 15px;
-    text-decoration : none;
-    font-weight: bold;
+    color: green;
+    font-size: 13px;
     font-family: 'Lucida Sans Regular',sans-serif;
 }
