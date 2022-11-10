@@ -57,7 +57,7 @@ li {
 #Mycart{
     display: flex;
     flex-direction: column;
-    justify-content: top;
+    justify-content: space-between;
     align-items: center;
     
     /*margin: 100px; J'AI MIS CA DANS UNE DIV cartContainer juste au dessus POUR BIEN L'ALIGNER
@@ -84,9 +84,8 @@ h1{
     color: black;
     background: rgb(226, 224, 224) ;
     font-family: 'Lucida Sans Regular',sans-serif;
-    margin-top: 15px;
     width: 85%;
-    height: 60px;
+    height: 50px;
     border-radius: 5px;
 }
 
@@ -94,7 +93,13 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     color: green;
     font-size: 13px;
     font-family: 'Lucida Sans Regular',sans-serif;
+    margin-bottom: 18px;
+}
+
+hr{
+margin-bottom: 20px;
 }

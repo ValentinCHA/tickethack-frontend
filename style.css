@@ -132,7 +132,7 @@ border: none;
 }
 
 #result{
-    padding-top: 35px;
+    padding-top: 10px;
     background-color:white;
     font-family: 'Lucida Sans Regular',sans-serif;
     margin: 10px;
@@ -140,12 +140,14 @@ border: none;
     border: 30px;
     border-radius: 10px;
     height: 370px;
-    width: 300px;; 
+    width: 300px;
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 .train{
     height: 130px;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 h3 {
@@ -158,5 +160,32 @@ h3 {
     margin-top: 30px;
     margin-left: 40px;
     margin-right: 40px;
+    
+}
+
+.resultDb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12.5px;
+    background-color: rgb(220, 213, 216);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+#heure, #prix {
+    font-weight: bold;
+}
+
+.book {
+    background-color:rgb(69, 158, 133);
+    font-family: 'Lucida Sans Regular',sans-serif;
+    color: white;
+    border: white;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px;
     
 }
